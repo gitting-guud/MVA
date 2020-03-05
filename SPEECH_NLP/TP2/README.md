@@ -12,3 +12,9 @@ This will proceed to :
 - train on the train+dev dataset
 - infer on the test data set (this takes a long time as the CYK is not optimized)
 - output a file named `evaluation_data.parser_output` containing the predictions
+
+The libraries needed to run the script are : 
+- nltk == 3.4.5
+- numpy
+- pandas
+- sklearn 
