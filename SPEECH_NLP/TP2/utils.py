@@ -54,7 +54,10 @@ def Binarisation_row_inference(row) :
   tree_to_compare = ' '.join(str(tr).split())
   
   new_tree_to_compare = tree_to_compare
-  while "+" in new_tree_to_compare :
+  count_loops = 100
+  c = 0
+  while ("+" in new_tree_to_compare ) and (c<count_loops):
+    c+=1
     func_tags_in_row = re.findall("\(\w+(\+\w+)", new_tree_to_compare)
     for func_tag in func_tags_in_row :
       new_tree_to_compare = new_tree_to_compare.replace(func_tag, "")

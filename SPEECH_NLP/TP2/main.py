@@ -64,7 +64,7 @@ for key, val in non_terminal_rules.items():
         
   
 LM = utils.train_language_model(sentences_for_LM)
-
+#%%
 inferences = []
 truths = []
 corpus = test
@@ -87,3 +87,5 @@ for i in range(len(corpus)) :
 
 
 #%%
+    
+np.save( "evaluation_data.parser_output",inferences)
