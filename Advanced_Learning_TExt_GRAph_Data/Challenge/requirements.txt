@@ -1,0 +1,8 @@
+transformers
+unidecode
+stellargraph
+keras
+torch
+pandas
+numpy
+networkx
