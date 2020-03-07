@@ -22,3 +22,6 @@ To overcome these issues :
 You can find these files in the folder : data 
 
 If those files are downloaded, read the comments in the .ipynb to see what are the lines that should be uncommented and ran and those that should be commented as there is no need to run them.
+
+Actually the train_hosts_UPLOAD_DRIVE.csv is too big for github (i do not use GitLFS) so here is the drive link to download it :
+https://drive.google.com/open?id=1l7sRDmgF0pd7oOMv_ZMBYLP--Ub_kSXB
